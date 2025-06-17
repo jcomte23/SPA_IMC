@@ -1,9 +1,10 @@
+// input
 const weight = document.getElementById("weight")
 const height = document.getElementById("height")
 const btnExecute = document.getElementById("btn-execute")
 const result = document.getElementById("result")
 
-
+// process
 btnExecute.addEventListener('click', function () {
 
     const imc = weight.value / (height.value * height.value)
@@ -20,6 +21,7 @@ btnExecute.addEventListener('click', function () {
         message = 'Obesidad';
     }
 
+    // ouput
     result.textContent="tu tienes un imc de "+ Math.round(imc) +" por lo tanto esta en: "+ message
 })
 

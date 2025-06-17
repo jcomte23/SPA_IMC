@@ -13,6 +13,7 @@ body {
     background: linear-gradient(135deg, #74ebd5, #9face6);
 }
 
+/* main section */
 .container {
     background: white;
     padding: 2rem;
@@ -62,6 +63,9 @@ button:hover {
     text-align: center;
     font-size: 1.2rem;
 }
+
+/* 
+responsive configuration */
 
 @media (max-width: 500px) {
     .container {
