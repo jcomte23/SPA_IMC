@@ -44,8 +44,8 @@ input {
 button {
     width: 100%;
     padding: 0.75rem;
-    background-color: #4a90e2;
-    color: white;
+    background-color: #004080;
+    color: #ffffff;
     border: none;
     border-radius: 0.5rem;
     font-size: 1rem;
@@ -54,7 +54,7 @@ button {
 }
 
 button:hover {
-    background-color: #357ABD;
+    background-color: #003366;
 }
 
 .result {
