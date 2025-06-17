@@ -1,22 +1,18 @@
-let peso
-let altura
-let imc
+const weight = 12
+const height = 12
 
-peso = prompt("ingresa tu peso(kg)")
-altura = prompt("ingresa tu altura(metros)")
+const imc = weight / (height * height)
 
-imc = peso / (altura*altura)
+let message
 
-console.info("tu imc es "+ imc)
-
-// crear una tabla de clasificacion
-// codicionales
-
-if (condition) {
-    
-}else if(condition){}
-
-else{
-
+if (imc < 18.5) {
+    message = 'Bajo peso';
+} else if (imc < 24.9) {
+    message = 'Peso normal';
+} else if (imc < 29.9) {
+    message = 'Sobrepeso';
+} else {
+    message = 'Obesidad';
 }
 
+result.textContent = `Tu IMC es ${imc.toFixed(2)} - ${message}`;
