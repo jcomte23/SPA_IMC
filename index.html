@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Esta aplicación web, desarrollada con HTML, CSS y JavaScript, calcula el Índice de Masa Corporal (IMC) de una persona a partir de su peso y altura. Ofrece una interfaz sencilla e intuitiva para que los usuarios puedan obtener rápidamente sus resultados y conocer su clasificación según el valor obtenido.">
+    <meta name="keywords" content="IMC, jcomte23">
+    <meta name="sitedomain" content="https://github.com/jcomte23/SPA_IMC">
+    <meta name="organization" content="jcomte23">
+    <meta name="author" content="Javier Cómbita Téllez">
+    <meta name="designer" content="Javier Cómbita Téllez">
+    <meta name="copyright" content="© 2025 jcomte23. All rights reserved">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="15days">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>IMC</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Calculadora IMC</h1>
+        <label for="weight">Peso (kg):</label>
+        <input type="number" id="weight" placeholder="Ej: 70">
+
+        <label for="height">Altura (m):</label>
+        <input type="number" id="height" placeholder="Ej: 1.75">
+
+        <button id="btn-execute">Calcular IMC</button>
+
+        <section class="result" id="result"></section>
+    </main>
+
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
