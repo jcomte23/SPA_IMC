@@ -7,7 +7,7 @@ This web application, developed with HTML, CSS, and JavaScript, aims to calculat
 
 <p align="center"><img src="https://happygitwithr.com/img/github-https-or-ssh-url-annotated.png" width="600" alt="ejemplo"></p>
 
-2.Open with your browser
+2.Open with your browser the file with the name index.html
 
 ## Author
 
